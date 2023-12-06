@@ -10,7 +10,7 @@ const openai = new OpenAI({
 async function genImage() {
     const image = await openai.images.generate({
         model:"dall-e-3",
-        prompt: "A high-def landscape format image of speed of learning with running man/robot in a high tech world"
+        prompt: "A high-def landscape format image of elephant in a high tech world"
     });
 
     console.log(image.data);
